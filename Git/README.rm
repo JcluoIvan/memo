@@ -7,3 +7,7 @@
 
 ### 推送本機所有 tag
 ``` git push origin --tags ```
+
+### 刪除遠端 tag
+    ``` $ git push <upstream> :refs/tags/<tag_name> ```
+    例： ` $ git push origin :refs/tags/[tagname] `
