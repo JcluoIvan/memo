@@ -23,6 +23,7 @@ class App extends React.Component {
 ```
     * MBL, MBM, MBR:  Mouse Button Left, Middle, Right
 
+    f1                  // 開啟命令列
     alt + MB1           // 多點選取
     alt + up/down       // 整行移動
     shift + alt + f     // 格式化
@@ -32,6 +33,7 @@ class App extends React.Component {
     ctrl + k + [        // 選取的區塊摺疊
     ctrl + k + ]        // 選取的區塊展開
     ctrl + space        // auto complete
+    ctrl + r            // 開啟最近使用的資料夾(專案)
 
 
 

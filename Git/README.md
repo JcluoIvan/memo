@@ -8,3 +8,8 @@
 ### 推送本機所有 tag ###
 ``` git push origin --tags ```
 
+### 將本機狀態強制推送
+``` git push -f ```
+
+### 刪除遠端 tag
+``` git push --delete origin {tagname}
