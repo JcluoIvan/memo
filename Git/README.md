@@ -12,4 +12,10 @@
 ``` git push -f ```
 
 ### 刪除遠端 tag
-``` git push --delete origin {tagname}
+``` git push --delete origin {tagname} ```
+
+### 顯示遠端分支資料
+``` git remote show origin ```
+
+### 移除遠端已刪除的分支
+``` git remote prune origin ```
